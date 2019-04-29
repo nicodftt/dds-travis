@@ -6,6 +6,5 @@ install:
 
 script: 
  
-- cd dds-travis
 - mvn eclipse:eclipse
 - mvn test -B
