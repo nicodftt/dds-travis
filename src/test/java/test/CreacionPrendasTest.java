@@ -49,7 +49,7 @@ public class CreacionPrendasTest {
 	public void borradorCreaPrendaConValoresEspecificados() {
 		Prenda camisa = borrador.crearPrenda();
 		
-		Assert.assertEquals(Color.AMARILLO, camisa.getColorPrimario());
+		Assert.assertEquals(Color.AZUL, camisa.getColorPrimario());
 		Assert.assertEquals(Color.AMARILLO, camisa.getColorSecundario());
 		Assert.assertEquals(Tipo.CAMISA_MANGAS_CORTAS, camisa.getTipo());
 		Assert.assertEquals(Categoria.PARTE_SUPERIOR, camisa.getTipo().getCategoria());
